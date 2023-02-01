@@ -1,0 +1,39 @@
+.card-block {
+  display: flex;
+
+}
+
+.card {
+  max-width: 210px;
+  min-height: 250px;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+.card__img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+
+  @media (max-width: 700px) {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+.card__subtitle {
+  margin-block: 10px;
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.card__descr {
+  font-size: 1rem;
+  text-align: center;
+}
+
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
