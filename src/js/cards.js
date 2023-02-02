@@ -1,50 +1,39 @@
-class menuCard {
-  constructor(img, alt, subtitle, descr, parentSelector) {
-    this.img = img;
-    this.alt = alt;
-    this.subtitle = subtitle;
-    this.descr = descr;
-    this.parent = document.querySelector(parentSelector);
-  }
+function addCard(img, alt, subtitle, descr, parentSelector) {
+  const element = document.createElement("div");
+  const parent = document.querySelector(parentSelector);
 
-  render() {
-    const element = document.createElement("div");
-
-    element.innerHTML = `
-      <div class="card">
-        <div class="card__content">
-          <img class="card__img"
-            src=${this.img}
-            alt=${this.alt}>
-          <div class="card__subtitle">${this.subtitle}</div>
-          <div class="card__descr">${this.descr}</div>
-        </div>
+  element.innerHTML = `
+    <div class="card">
+      <div class="card__content">
+        <img class="card__img"
+          src=${img}
+          alt=${alt}>
+        <div class="card__subtitle">${subtitle}</div>
+        <div class="card__descr">${descr}</div>
       </div>
-    `;
-    this.parent.append(element);
-  }
+    </div>
+  `;
+  parent.append(element);
 }
 
-new menuCard(
+addCard(
   "https://loremflickr.com/320/240",
   "pics",
   "subtitle",
   "descr",
   ".card-block"
-).render();
-
-new menuCard(
+);
+addCard(
   "https://loremflickr.com/320/240",
   "pics",
   "subtitle",
   "descr",
   ".card-block"
-).render();
-
-new menuCard(
+);
+addCard(
   "https://loremflickr.com/320/240",
   "pics",
   "subtitle",
   "descr",
   ".card-block"
-).render();
+);
