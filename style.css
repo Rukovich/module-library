@@ -47,12 +47,8 @@
 
 /* TABS */
 
-.tabs {
+.section__tabs {
   margin-block: 60px;
-}
-
-.tab-active {
-  color: red !important;
 }
 
 .tabs__head {
@@ -69,6 +65,11 @@
   padding: 10px;
   cursor: pointer;
   color: black;
+}
+
+.tabs__caption_active {
+  opacity: 1;
+  color: red;
 }
 
 .tabs__content {
