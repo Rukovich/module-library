@@ -1,10 +1,20 @@
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.title {
+  text-align: center;
+}
+
+/* CARD */
 .card-block {
   display: flex;
-
+  justify-content: center;
 }
 
 .card {
-  max-width: 210px;
+  max-width: 180px;
   min-height: 250px;
   border: 1px solid black;
   margin: 10px;
@@ -36,4 +46,33 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+/* TABS */
+.tabs__head {
+  display: flex;
+  justify-content: center;
+  max-width: 30%;
+  margin-inline: auto;
+  border: 2px solid black;
+}
+
+.tabs__caption {
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.tabs__content {
+  display: none;
+  margin: 30px;
+}
+
+.active {
+  display: block;
+}
+
+.tabs__head .active {
+  color: red;
 }

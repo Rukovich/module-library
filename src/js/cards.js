@@ -37,3 +37,28 @@ addCard(
   "descr",
   ".card-block"
 );
+
+// tabs
+addCard(
+  "https://loremflickr.com/320/240",
+  "pics",
+  "1-й таб",
+  "descr",
+  `#cardTab-1`
+);
+
+addCard(
+  "https://loremflickr.com/320/240",
+  "pics",
+  "2-й таб",
+  "descr",
+  `#cardTab-2`
+);
+
+addCard(
+  "https://loremflickr.com/320/240",
+  "pics",
+  "3-й таб",
+  "descr",
+  `#cardTab-3`
+);

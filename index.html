@@ -5,16 +5,41 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>module-library</title>
-  <h1>module-library</h1>
 </head>
 
 <body>
-  <div class="container">
-    <div class="card-block">
+  <section card>
+    <div class="container">
+      <h3 class="title">Карточки с помощью javaScript</h3>
+      <div class="card-block">
 
-
+      </div>
     </div>
-  </div>
+  </section>
+
+  <section tabs>
+    <div class="container">
+      <h3 class="title">Табы на javaScript</h3>
+      <div class="tabs__head">
+        <div class="tabs__caption active" data-tab="tab-1">tab-1</div>
+        <div class="tabs__caption" data-tab="tab-2">tab-2</div>
+        <div class="tabs__caption" data-tab="tab-3">tab-3</div>
+      </div>
+
+      <div class="tabs__body">
+        <div class="tabs__content active" data-tab="tab-1" id="tab-1">
+          <div class="card-block" id="cardTab-1"></div>
+        </div>
+        <div class="tabs__content" data-tab="tab-2" id="tab-2">
+          <div class="card-block" id="cardTab-2"></div>
+        </div>
+        <div class="tabs__content" data-tab="tab-3" id="tab-3">
+          <div class="card-block" id="cardTab-3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script type="module" src="/main.js"></script>
 </body>
 
