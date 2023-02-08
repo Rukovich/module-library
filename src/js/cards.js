@@ -44,7 +44,7 @@ addCard(
   "pics",
   "1-й таб",
   "descr",
-  `#tab-1`
+  `#cardTab-1`
 );
 
 addCard(
@@ -52,7 +52,7 @@ addCard(
   "pics",
   "2-й таб",
   "descr",
-  `#tab-2`
+  `#cardTab-2`
 );
 
 addCard(
@@ -60,5 +60,5 @@ addCard(
   "pics",
   "3-й таб",
   "descr",
-  `#tab-3`
+  `#cardTab-3`
 );
