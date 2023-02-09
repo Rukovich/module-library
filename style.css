@@ -129,7 +129,11 @@
   margin-inline: auto;
 }
 
-/* Классы для табов  */
 .active_modal {
   display: block;
+}
+
+.modal_btn {
+  display: block;
+  margin-inline: auto;
 }
