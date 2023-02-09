@@ -29,6 +29,7 @@ function modal(triggerSelector, modalSelector, activeSelector) {
   });
 
   //Открывает модальное окно при скролле в конец страницы
+  /*
   function showModalByScroll() {
     if (
       window.pageYOffset + document.documentElement.clientHeight >=
@@ -39,5 +40,6 @@ function modal(triggerSelector, modalSelector, activeSelector) {
     }
   }
   window.addEventListener("scroll", showModalByScroll);
+  */
 }
 modal("[data-modal]", ".modal", "active_modal");

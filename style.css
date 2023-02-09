@@ -55,7 +55,7 @@
   justify-content: center;
   max-width: 30%;
   margin-inline: auto;
-  border: 2px solid black;
+  border: 1px solid black;
 }
 
 .tabs__caption {
@@ -91,14 +91,13 @@
 }
 
 .modal__dialog {
-  max-width: 200px;
+  max-width: 300px;
   margin: 20px auto
 }
 
 .modal__content {
   position: relative;
-  width: 100%;
-  padding: 20px;
+  padding: 40px;
   background-color: #fff;
   top: 30vh;
 }
@@ -136,4 +135,14 @@
 .modal_btn {
   display: block;
   margin-inline: auto;
+}
+
+/* TIMER */
+.timer {
+  display: flex;
+  justify-content: center;
+}
+
+.timer__block {
+  padding-inline: 20px;
 }
