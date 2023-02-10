@@ -30,13 +30,6 @@ addCard(
   "descr",
   ".card-block"
 );
-addCard(
-  "https://loremflickr.com/320/240",
-  "pics",
-  "subtitle",
-  "descr",
-  ".card-block"
-);
 
 // tabs
 addCard(

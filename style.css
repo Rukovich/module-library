@@ -11,6 +11,7 @@
 .card-block {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -53,7 +54,7 @@
 .tabs__head {
   display: flex;
   justify-content: center;
-  max-width: 30%;
+  width: 200px;
   margin-inline: auto;
   border: 1px solid black;
 }
@@ -141,6 +142,7 @@
 .timer {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .timer__block {
